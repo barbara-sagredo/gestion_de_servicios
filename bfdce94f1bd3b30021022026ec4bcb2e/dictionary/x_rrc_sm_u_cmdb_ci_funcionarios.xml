@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_rrc_sm_u_cmdb_ci_personas" label="Funcionarios" max_length="40" name="x_rrc_sm_u_cmdb_ci_funcionarios" sizeclass="7" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Cargo" max_length="40" name="u_slx_cargo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Encargado de Agencia" sequence="0" value="Encargado de Agencia"/>
+                <element inactive_on_update="false" label="Jefe Área" sequence="1" value="Jefe Área"/>
+                <element inactive_on_update="false" label="Jefe de Carga Aérea" sequence="2" value="Jefe de Carga Aérea"/>
+                <element inactive_on_update="false" label="Jefe de CDP" sequence="3" value="Jefe de CDP"/>
+                <element inactive_on_update="false" label="Jefe de Planta" sequence="4" value="Jefe de Planta"/>
+                <element inactive_on_update="false" label="Jefe de Sucursal" sequence="5" value="Jefe de Sucursal"/>
+                <element inactive_on_update="false" label="Jefe Distribución" sequence="6" value="Jefe Distribución"/>
+                <element inactive_on_update="false" label="Jefe Planta" sequence="7" value="Jefe Planta"/>
+                <element inactive_on_update="false" label="Jefe Regional" sequence="8" value="Jefe Regional"/>
+                <element inactive_on_update="false" label="Jefe Unidad" sequence="9" value="Jefe Unidad"/>
+                <element inactive_on_update="false" label="Operador" sequence="10" value="Operador"/>
+                <element inactive_on_update="false" label="Supervisor" sequence="11" value="Supervisor"/>
+                <element inactive_on_update="false" label="Supervisor CTP" sequence="12" value="Supervisor CTP"/>
+                <element inactive_on_update="false" label="Supervisor Planta" sequence="13" value="Supervisor Planta"/>
+                <element inactive_on_update="false" label="Técnico" sequence="14" value="Técnico"/>
+                <element inactive_on_update="false" label="Técnico Facturación" sequence="15" value="Técnico Facturación"/>
+                <element inactive_on_update="false" label="Técnico Operaciones" sequence="16" value="Técnico Operaciones"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Email" max_length="60" name="u_slx_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Firma" max_length="400" name="u_slx_firma" type="string"/>
+        <element label="Firma Casos Compensación" max_length="40" name="u_slx_firma_compensacion" type="boolean"/>
+        <element label="Gerencia" max_length="32" name="u_slx_gerencia" reference="business_unit" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="ID Dominio" max_length="60" name="u_slx_id_dominio" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Teléfono" max_length="40" name="u_slx_telefono" type="string"/>
+    </element>
+</database>

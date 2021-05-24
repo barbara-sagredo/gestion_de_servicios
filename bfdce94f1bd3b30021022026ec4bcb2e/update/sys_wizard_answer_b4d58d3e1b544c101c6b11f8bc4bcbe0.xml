@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Tarea de Servicio</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Tarea de Servicio</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">8fe60b861b3133000dcd8444cc4bcb55</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>slx.dv</sys_created_by>
+        <sys_created_on>2019-10-08 15:22:31</sys_created_on>
+        <sys_id>b4d58d3e1b544c101c6b11f8bc4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tarea de Servicio</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_wizard_answer_b4d58d3e1b544c101c6b11f8bc4bcbe0</sys_update_name>
+        <sys_updated_by>slx.dv</sys_updated_by>
+        <sys_updated_on>2019-10-08 15:22:31</sys_updated_on>
+        <table/>
+        <target_url>x_rrc_sm_tarea_apoyo.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

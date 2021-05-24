@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a81649b91bec44501c6b11f8bc4bcbe2" sys_domain="global" table="x_rrc_sm_u_cmdb_ci_funcionarios" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>301649b91bec44501c6b11f8bc4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_u_cmdb_ci_funcionarios" name="x_rrc_sm_u_cmdb_ci_funcionarios" sys_domain="global" view="Default view">a81649b91bec44501c6b11f8bc4bcbe2</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_rrc_sm_u_cmdb_ci_funcionarios" sys_domain="global" view="Default view">7aa5cd711bec44501c6b11f8bc4bcb02</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:05:22</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a81649b91bec44501c6b11f8bc4bcbe2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_rrc_sm_u_cmdb_ci_funcionarios</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a81649b91bec44501c6b11f8bc4bcbe2</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:05:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

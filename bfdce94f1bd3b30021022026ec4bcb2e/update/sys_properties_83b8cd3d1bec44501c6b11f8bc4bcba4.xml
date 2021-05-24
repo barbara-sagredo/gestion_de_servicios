@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Funcionarios activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_rrc_sm_u_cmdb_ci_funcionarios_activity.fields</name>
+        <read_roles/>
+        <suffix>x_rrc_sm</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-10-17 23:17:00</sys_created_on>
+        <sys_id>83b8cd3d1bec44501c6b11f8bc4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_rrc_sm_u_cmdb_ci_funcionarios_activity.fields</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_properties_83b8cd3d1bec44501c6b11f8bc4bcba4</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-10-17 23:17:00</sys_updated_on>
+        <type>string</type>
+        <value>name,u_slx_id_dominio,u_slx_telefono,u_slx_email,location,sys_updated_on,sys_class_name</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=83b8cd3d1bec44501c6b11f8bc4bcba4"/>
+</record_update>

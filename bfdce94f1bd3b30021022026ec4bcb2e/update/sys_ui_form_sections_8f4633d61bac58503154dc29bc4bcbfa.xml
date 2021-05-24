@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8f4633d61bac58503154dc29bc4bcbfa" sys_domain="global" table="x_rrc_sm_etapa_servicio" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>874633d61bac58503154dc29bc4bcbfd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_etapa_servicio" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">8f4633d61bac58503154dc29bc4bcbfa</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">5225bb9e1b6c58503154dc29bc4bcb17</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>474633d61bac58503154dc29bc4bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_etapa_servicio" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">8f4633d61bac58503154dc29bc4bcbfa</sys_ui_form>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c34673d61bac58503154dc29bc4bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_etapa_servicio" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">8f4633d61bac58503154dc29bc4bcbfa</sys_ui_form>
+            <sys_ui_section caption="Sistema" display_value="Sistema" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">434633d61bac58503154dc29bc4bcbfa</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_rrc_sm_etapa_servicio</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f4633d61bac58503154dc29bc4bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_rrc_sm_etapa_servicio</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8f4633d61bac58503154dc29bc4bcbfa</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

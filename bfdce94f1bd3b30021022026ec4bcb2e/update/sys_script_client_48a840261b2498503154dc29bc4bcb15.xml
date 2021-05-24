@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>SLX Muestra mensaje en pantalla si es cierre tarea</description>
+        <field>u_slx_respuesta_etapa</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Mensaje por Respuesta</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if ( newValue === '' || g_form.getValue('state')==3 || g_form.getValue('state')==4 || g_form.getValue('state')==7) {
+	  g_form.clearMessages();
+      return;
+   }
+
+	 g_form.getReference('u_slx_respuesta_etapa', datosRespuesta);
+	
+function datosRespuesta(respuesta) 
+	{	
+	
+//	var nextEt = respuesta.u_slx_etapa_siguiente;
+	var cierre = respuesta.u_slx_cierra_tarea;
+	var mensaje = respuesta.u_slx_instruccion_cierre;
+		
+	if (cierre == 'true')
+		{
+			if (mensaje)
+				{g_form.showFieldMsg('u_slx_respuesta_etapa',mensaje,'warning');}
+			else
+				{g_form.showFieldMsg('u_slx_respuesta_etapa','Respuesta fin de proceso, deberá Cerrar/Completar la tarea','warning');}
+		}
+	else
+		{	  g_form.clearMessages();}
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2020-05-05 22:44:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48a840261b2498503154dc29bc4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Mensaje por Respuesta</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_script_client_48a840261b2498503154dc29bc4bcb15</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2020-05-05 22:44:23</sys_updated_on>
+        <table>x_rrc_sm_tarea_apoyo</table>
+        <type>onChange</type>
+        <ui_type>1</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

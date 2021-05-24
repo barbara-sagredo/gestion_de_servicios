@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fe903bd21be858503154dc29bc4bcb67" sys_domain="global" table="x_rrc_sm_proceso_servicio" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 20:58:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe90fbd21be858503154dc29bc4bcbab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_proceso_servicio" name="x_rrc_sm_proceso_servicio" sys_domain="global" view="Default view">fe903bd21be858503154dc29bc4bcb67</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_rrc_sm_proceso_servicio" sys_domain="global" view="Default view">59ef239e1ba858503154dc29bc4bcbcd</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 20:58:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 20:58:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe90fbd21be858503154dc29bc4bcbac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_proceso_servicio" name="x_rrc_sm_proceso_servicio" sys_domain="global" view="Default view">fe903bd21be858503154dc29bc4bcb67</sys_ui_form>
+            <sys_ui_section caption="Observaciones" display_value="Observaciones" name="x_rrc_sm_proceso_servicio" sys_domain="global" view="Default view">b6903bd21be858503154dc29bc4bcb65</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 20:58:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 20:58:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b290fbd21be858503154dc29bc4bcbb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_proceso_servicio" name="x_rrc_sm_proceso_servicio" sys_domain="global" view="Default view">fe903bd21be858503154dc29bc4bcb67</sys_ui_form>
+            <sys_ui_section caption="Historia" display_value="Historia" name="x_rrc_sm_proceso_servicio" sys_domain="global" view="Default view">76903bd21be858503154dc29bc4bcb66</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 20:58:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 20:58:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7290fbd21be858503154dc29bc4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_proceso_servicio" name="x_rrc_sm_proceso_servicio" sys_domain="global" view="Default view">fe903bd21be858503154dc29bc4bcb67</sys_ui_form>
+            <sys_ui_section caption="Sistema" display_value="Sistema" name="x_rrc_sm_proceso_servicio" sys_domain="global" view="Default view">32903bd21be858503154dc29bc4bcb67</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 20:58:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_rrc_sm_proceso_servicio</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 20:58:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe903bd21be858503154dc29bc4bcb67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_rrc_sm_proceso_servicio</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fe903bd21be858503154dc29bc4bcb67</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 20:58:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

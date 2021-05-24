@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_unidad_de_servicio" label="Unidad de Servicio" language="es" table="x_rrc_sm_tarea_apoyo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_unidad_de_servicio</element>
+            <help/>
+            <hint/>
+            <label>Unidad de Servicio</label>
+            <language>es</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-15 20:17:54</sys_created_on>
+            <sys_id>3f8c0e091bacc0501c6b11f8bc4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Unidad de Servicio</sys_name>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_documentation_x_rrc_sm_tarea_apoyo_u_slx_unidad_de_servicio_es</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-15 20:17:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

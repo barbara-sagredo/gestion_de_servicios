@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_caso_sensibilidad" label="Sensibilidad" language="en" table="x_rrc_sm_tarea_apoyo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_caso_sensibilidad</element>
+            <help/>
+            <hint/>
+            <label>Sensibilidad</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <plural>Sensibilidads</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-08 18:04:27</sys_created_on>
+            <sys_id>d1d580f51b489cd037b5da4cbc4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sensibilidad</sys_name>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_documentation_x_rrc_sm_tarea_apoyo_u_slx_caso_sensibilidad_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-08 18:04:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

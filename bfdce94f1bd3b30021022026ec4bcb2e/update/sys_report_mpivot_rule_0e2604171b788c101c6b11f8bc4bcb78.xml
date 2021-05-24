@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_mpivot_rule">
+    <sys_report_mpivot_rule action="INSERT_OR_UPDATE">
+        <bg_color>background-color:</bg_color>
+        <bg_color_id/>
+        <color>background-color:#FF0000</color>
+        <color_id display_value="Red">65b30395a9fe3dba003277a7b660b5db</color_id>
+        <operator>&gt;</operator>
+        <order>-1</order>
+        <report_id display_value="TS Enviadas sin mov">8e268cd31b788c101c6b11f8bc4bcbe9</report_id>
+        <sys_class_name>sys_report_mpivot_rule</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-11-03 20:32:42</sys_created_on>
+        <sys_id>0e2604171b788c101c6b11f8bc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>&gt;</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_report_mpivot_rule_0e2604171b788c101c6b11f8bc4bcb78</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-11-03 20:32:42</sys_updated_on>
+        <value1>0</value1>
+        <value2/>
+    </sys_report_mpivot_rule>
+</record_update>

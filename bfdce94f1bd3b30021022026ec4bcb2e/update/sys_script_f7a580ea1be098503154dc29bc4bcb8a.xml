@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_rrc_sm_tarea_apoyo</collection>
+        <condition/>
+        <description>BR encargada de poblar etapa de proceso y grupo de asignación de la tabla tarea de servicio, segun etapa y grupo de la respuesta.</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_rrc_sm_tarea_apoyo">u_slx_respuesta_etapaVALCHANGES^EQ<item endquery="false" field="u_slx_respuesta_etapa" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Completa respuesta de etapa</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[/**
+* Completar proceso y grupo segun respuesta.
+* Si cambia la respuesta de etapa de una tarea, utilizando la respuesta que tenga cada proceso, se obtendran los procesos y grupos de estos para remplazar los campos actuales.
+* Éxito.
+* @slx.fc
+*/
+(function executeRule(current, previous /*null when async*/) {
+
+var nextEtapa = current.u_slx_respuesta_etapa.u_slx_etapa_siguiente;
+var nextGrupo = current.u_slx_respuesta_etapa.u_slx_grupo_asignacion;
+var asignado = current.assigned_to;
+var usuario = gs.getUserID();
+var etapa = current.u_slx_etapa_proceso.getDisplayValue();
+var resp = current.u_slx_respuesta_etapa.getDisplayValue();
+var avance = current.u_slx_avance_proceso;
+var avanceEtapa = current.u_slx_respuesta_etapa.u_slx_etapa_siguiente.getDisplayValue();
+	
+current.u_slx_cierra_tarea = current.u_slx_respuesta_etapa.u_slx_cierra_tarea;
+current.u_slx_respuesta_proceso = 'e: ' + etapa + ' >> r: ' + resp;
+current.u_slx_respuesta_etapa_registro = current.u_slx_respuesta_etapa;
+
+	if (nextEtapa) 
+	{
+		current.u_slx_avance_proceso = avance + avanceEtapa + ' > ';
+	}
+else 
+	{
+		current.u_slx_avance_proceso = avance + ' fin.';
+	}
+	
+if (!asignado) 
+	{
+		current.assigned_to=usuario;
+	}
+	
+	if (nextEtapa) 
+		{
+			current.u_slx_etapa_proceso = nextEtapa;
+		}
+	if (nextGrupo) 
+		{
+			current.assignment_group = nextGrupo;
+			current.assigned_to = '';
+		}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2020-05-05 22:32:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f7a580ea1be098503154dc29bc4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX Completa respuesta de etapa</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_script_f7a580ea1be098503154dc29bc4bcb8a</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2020-05-05 22:32:39</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f7a580ea1be098503154dc29bc4bcb8a"/>
+</record_update>

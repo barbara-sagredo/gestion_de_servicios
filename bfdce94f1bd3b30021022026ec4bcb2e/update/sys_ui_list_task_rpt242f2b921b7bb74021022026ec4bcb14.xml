@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="task" version="2" view="RPT242f2b921b7bb74021022026ec4bcb14">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="a02f67161b7bb74021022026ec4bcb67">ec2f67161b7bb74021022026ec4bcb67</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-09-12 17:53:53</sys_created_on>
+            <sys_id>282f67161b7bb74021022026ec4bcb68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:53:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_at</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="a02f67161b7bb74021022026ec4bcb67">ec2f67161b7bb74021022026ec4bcb67</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-09-12 17:53:53</sys_created_on>
+            <sys_id>a82f67161b7bb74021022026ec4bcb68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:53:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="a02f67161b7bb74021022026ec4bcb67">ec2f67161b7bb74021022026ec4bcb67</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-09-12 17:53:53</sys_created_on>
+            <sys_id>2c2f67161b7bb74021022026ec4bcb68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:53:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="a02f67161b7bb74021022026ec4bcb67">ec2f67161b7bb74021022026ec4bcb67</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-09-12 17:53:53</sys_created_on>
+            <sys_id>ac2f67161b7bb74021022026ec4bcb68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:53:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="a02f67161b7bb74021022026ec4bcb67">ec2f67161b7bb74021022026ec4bcb67</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-09-12 17:53:53</sys_created_on>
+            <sys_id>202f67161b7bb74021022026ec4bcb69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:53:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="a02f67161b7bb74021022026ec4bcb67">ec2f67161b7bb74021022026ec4bcb67</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-09-12 17:53:53</sys_created_on>
+            <sys_id>a02f67161b7bb74021022026ec4bcb69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:53:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="a02f67161b7bb74021022026ec4bcb67">ec2f67161b7bb74021022026ec4bcb67</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-09-12 17:53:53</sys_created_on>
+            <sys_id>242f67161b7bb74021022026ec4bcb69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:53:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>task</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-09-12 17:53:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec2f67161b7bb74021022026ec4bcb67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>task</sys_name>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_ui_list_task_RPT242f2b921b7bb74021022026ec4bcb14</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-09-12 17:53:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt242f2b921b7bb74021022026ec4bcb14" name="RPT242f2b921b7bb74021022026ec4bcb14">a02f67161b7bb74021022026ec4bcb67</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

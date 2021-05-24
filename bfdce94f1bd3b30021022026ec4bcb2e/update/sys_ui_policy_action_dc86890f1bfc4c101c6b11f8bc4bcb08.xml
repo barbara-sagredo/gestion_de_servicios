@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>description</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-11-03 06:35:21</sys_created_on>
+        <sys_id>dc86890f1bfc4c101c6b11f8bc4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_dc86890f1bfc4c101c6b11f8bc4bcb08</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-11-03 06:35:21</sys_updated_on>
+        <table>x_rrc_sm_tarea_apoyo</table>
+        <ui_policy display_value="SLX Terminado">ba7381cb1bfc4c101c6b11f8bc4bcb56</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Operaciones">709803c91b6004501c6b11f8bc4bcbda</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Tarea de Apoyos</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_rrc_sm_u_cmdb_ci_cuarteles</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_rrc_sm.tarea_de_apoyo_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-10-18 00:21:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>938751fd1be4085021022026ec4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cuarteles</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_app_module_938751fd1be4085021022026ec4bcbc8</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-10-18 00:21:44</sys_updated_on>
+        <timeline_page/>
+        <title>Cuarteles</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

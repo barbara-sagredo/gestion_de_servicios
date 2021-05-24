@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_id_dominio" label="ID Dominio" language="en" table="x_rrc_sm_u_cmdb_ci_funcionarios">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_id_dominio</element>
+            <help/>
+            <hint/>
+            <label>ID Dominio</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <plural>ID Dominios</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 22:06:54</sys_created_on>
+            <sys_id>18b878311bec44501c6b11f8bc4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ID Dominio</sys_name>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_documentation_x_rrc_sm_u_cmdb_ci_funcionarios_u_slx_id_dominio_en</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 22:06:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_rrc_sm.informaci_n_de_env_os_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>informaci_n_de_env_os_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-09-02 13:44:45</sys_created_on>
+        <sys_id>7006df031b673f001c6b11f8bc4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_rrc_sm.informaci_n_de_env_os_user</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_user_role_7006df031b673f001c6b11f8bc4bcb2b</sys_update_name>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-09-02 13:44:45</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</application>
+        <file_path/>
+        <instance_id>19938fcedbf57f008aea21c4059619fe</instance_id>
+        <instance_name>correoscl</instance_name>
+        <name>sys_user_role_7006df031b673f001c6b11f8bc4bcb2b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_rrc_sm.informaci_n_de_env_os_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>informaci_n_de_env_os_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>slx.os</sys_created_by><sys_created_on>2019-09-02 13:44:45</sys_created_on><sys_id>7006df031b673f001c6b11f8bc4bcb2b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_rrc_sm.informaci_n_de_env_os_user</sys_name><sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package><sys_policy/><sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope><sys_update_name>sys_user_role_7006df031b673f001c6b11f8bc4bcb2b</sys_update_name><sys_updated_by>slx.os</sys_updated_by><sys_updated_on>2019-09-02 13:44:45</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>232769231</payload_hash>
+        <record_name>x_rrc_sm.informaci_n_de_env_os_user</record_name>
+        <reverted_from/>
+        <source>ccece58f1bd3b30021022026ec4bcb92</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.os</sys_created_by>
+        <sys_created_on>2019-09-02 13:44:45</sys_created_on>
+        <sys_id>6536df031b673f001c6b11f8bc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cf238826b0000001</sys_recorded_at>
+        <sys_updated_by>slx.os</sys_updated_by>
+        <sys_updated_on>2019-09-02 13:44:45</sys_updated_on>
+        <type>Role</type>
+        <update_guid>ad36df03af673f0030c5d603eb4c530f</update_guid>
+        <update_guid_history>ad36df03af673f0030c5d603eb4c530f:232769231</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">962e17421b584c1021022026ec4bcb3b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-10-06 18:32:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>b4fd850965ab4bd69e8c3bfb7a93dfa4</sys_id>
+        <sys_metadata>7006df031b673f001c6b11f8bc4bcb2b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_rrc_sm.informaci_n_de_env_os_user</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_scope_delete display_value="">246b4cd8d95547798e90f0b45d69cb69</sys_scope_delete>
+        <sys_update_name>sys_user_role_7006df031b673f001c6b11f8bc4bcb2b</sys_update_name>
+        <sys_update_version display_value="sys_user_role_7006df031b673f001c6b11f8bc4bcb2b">6536df031b673f001c6b11f8bc4bcb10</sys_update_version>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:32:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

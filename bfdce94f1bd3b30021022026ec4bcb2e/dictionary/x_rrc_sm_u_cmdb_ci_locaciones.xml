@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="Locaciones" max_length="40" name="x_rrc_sm_u_cmdb_ci_locaciones" sizeclass="2" type="collection"/>
+</database>

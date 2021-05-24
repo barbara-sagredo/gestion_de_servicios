@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ed9611bd1be4085021022026ec4bcba2" sys_domain="global" table="u_cmdb_ci_locaciones" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-18 00:17:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a99611bd1be4085021022026ec4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_cmdb_ci_locaciones" name="u_cmdb_ci_locaciones" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">ed9611bd1be4085021022026ec4bcba2</sys_ui_form>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_locaciones" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">259611bd1be4085021022026ec4bcba5</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-18 00:17:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-18 00:17:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d9611bd1be4085021022026ec4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="u_cmdb_ci_locaciones" name="u_cmdb_ci_locaciones" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">ed9611bd1be4085021022026ec4bcba2</sys_ui_form>
+            <sys_ui_section caption="More Attributes" display_value="More Attributes" name="u_cmdb_ci_locaciones" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">299611bd1be4085021022026ec4bcbab</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-18 00:17:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>u_cmdb_ci_locaciones</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-18 00:17:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed9611bd1be4085021022026ec4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cmdb_ci_locaciones</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ed9611bd1be4085021022026ec4bcba2</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-18 00:17:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">2f19cfc21bf133000dcd8444cc4bcb63</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

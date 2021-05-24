@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_rrc_sm_tarea_apoyo</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>slx test</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+			var myUs = '';
+		
+		var user = new GlideRecord('sys_user');
+		user.addQuery('sys_id',gs.getUserID());
+		user.query();
+		if(user.next())
+		{ myUs = user.u_slx_unidad_servicio;}
+	
+	
+	if (current.short_description!='')
+		{ gs.addInfoMessage('algo');
+			gs.addInfoMessage('muestra : ' + myUs);
+			gs.addInfoMessage('algo : ' + current.u_slx_unidad_de_servicio);
+			current.short_description = 'nuevo';
+		}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-10-07 06:21:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb108ed21b508c1021022026ec4bcb9d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>slx test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_script_bb108ed21b508c1021022026ec4bcb9d</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-10-11 06:52:07</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=bb108ed21b508c1021022026ec4bcb9d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</application>
+        <file_path/>
+        <instance_id>19938fcedbf57f008aea21c4059619fe</instance_id>
+        <instance_name>correoscl</instance_name>
+        <name>sys_script_bb108ed21b508c1021022026ec4bcb9d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_rrc_sm_tarea_apoyo&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;slx test&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+			var myUs = '';
+		
+		var user = new GlideRecord('sys_user');
+		user.addQuery('sys_id',gs.getUserID());
+		user.query();
+		if(user.next())
+		{ myUs = user.u_slx_unidad_servicio;}
+	
+	
+	if (current.short_description!='')
+		{ gs.addInfoMessage('algo');
+			gs.addInfoMessage('muestra : ' + myUs);
+			gs.addInfoMessage('algo : ' + current.u_slx_unidad_de_servicio);
+			current.short_description = 'nuevo';
+		}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.jp&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-07 06:21:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bb108ed21b508c1021022026ec4bcb9d&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;slx test&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Gestión de Servicios" source="x_rrc_sm"&gt;bfdce94f1bd3b30021022026ec4bcb2e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestión de Servicios"&gt;bfdce94f1bd3b30021022026ec4bcb2e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_bb108ed21b508c1021022026ec4bcb9d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.jp&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-11 06:52:07&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=bb108ed21b508c1021022026ec4bcb9d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1292290331</payload_hash>
+        <record_name>slx test</record_name>
+        <reverted_from/>
+        <source>ccece58f1bd3b30021022026ec4bcb92</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-10-11 06:52:07</sys_created_on>
+        <sys_id>25cda66b1b14805021022026ec4bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16db996c0c50000001</sys_recorded_at>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-10-11 06:52:07</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>e9cda66bcc148050dfdc0775f54e3d4f</update_guid>
+        <update_guid_history>e9cda66bcc148050dfdc0775f54e3d4f:-1292290331,7bf30a9658508c10fb5fbbaa91b0bf87:304545202,3a03c6967d508c1059f0a14911a60f96:-15220257,19d20696e6508c10bd9531008bd69ef7:-34118401,9d620a566d508c104381b067797f6d1f:571045713,9e220e56d1508c10fe9846118e9aa26b:-2122847438,bef1ce16e7508c10fe5caf2e4de7050c:43730960,b4d18e1689508c105038dc34f33f70f3:185688920,09810e1685508c108cd8a16a301cdd47:159128530,333102562b508c103069e1ba26c4476a:-1306488062,f2d04a162a508c105e981afff2a77c19:-1865471071,7d60461661508c100822fc3ad0f40172:489342137</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-11-03 05:05:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>07af1177a6af467f807f7fe55e1f8ba9</sys_id>
+        <sys_metadata>bb108ed21b508c1021022026ec4bcb9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>slx test</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_parent display_value="Tarea de Servicio">3fec698f1bd3b30021022026ec4bcb7b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_scope_delete display_value="">246b4cd8d95547798e90f0b45d69cb69</sys_scope_delete>
+        <sys_update_name>sys_script_bb108ed21b508c1021022026ec4bcb9d</sys_update_name>
+        <sys_update_version display_value="sys_script_bb108ed21b508c1021022026ec4bcb9d">25cda66b1b14805021022026ec4bcb50</sys_update_version>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-11-03 05:05:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

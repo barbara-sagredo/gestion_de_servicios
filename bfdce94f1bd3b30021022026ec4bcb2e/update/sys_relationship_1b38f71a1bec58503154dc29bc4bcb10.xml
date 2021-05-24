@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_rrc_sm_etapa_servicio</basic_apply_to>
+        <basic_query_from>x_rrc_sm_etapa_servicio</basic_query_from>
+        <insert_callback/>
+        <name>Respuestas Etapa</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	var query = "sys_idISEMPTY";
+	if(parent.u_slx_respuestas)
+	{
+		query = "sys_idIN" + parent.u_slx_respuestas;
+	}
+	current.addEncodedQuery(query);
+})(current, parent);]]></query_with>
+        <reference_field>u_slx_etapa_siguiente</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2020-05-05 21:32:34</sys_created_on>
+        <sys_id>1b38f71a1bec58503154dc29bc4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Respuestas Etapa</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_relationship_1b38f71a1bec58503154dc29bc4bcb10</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2020-05-05 21:32:34</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=1b38f71a1bec58503154dc29bc4bcb10"/>
+</record_update>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Definiciones" section_id="4f4637961bac58503154dc29bc4bcbba" sys_domain="global" table="x_rrc_sm_etapa_servicio" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>0b4673d61bac58503154dc29bc4bcb64</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <text/>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>4f4673d61bac58503154dc29bc4bcb65</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <text>El campo de cierre tarea se define automáticamente. Cuando es "Etapa" y no tiene "Respuestas" posibles, o cuando es "Respuesta" y no tiene "Etapa siguiente".</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>834673d61bac58503154dc29bc4bcb67</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <text>La instrucción de cierre permite mostrar en pantalla información al usuario sobre que tiene que cerrar/completar la tarea. Campo opcional.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_tipo</element>
+            <position>0</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>cb4673d61bac58503154dc29bc4bcb69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_define_dueno</element>
+            <position>1</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>4f4673d61bac58503154dc29bc4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_etapa_siguiente</element>
+            <position>2</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>c34673d61bac58503154dc29bc4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>4b4673d61bac58503154dc29bc4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_orden</element>
+            <position>4</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>cf4673d61bac58503154dc29bc4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_respuestas</element>
+            <position>5</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>474673d61bac58503154dc29bc4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_grupo_asignacion</element>
+            <position>6</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>cb4673d61bac58503154dc29bc4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>434673d61bac58503154dc29bc4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>0b4673d61bac58503154dc29bc4bcb64</element>
+            <position>8</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>c74673d61bac58503154dc29bc4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>9</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>4f4673d61bac58503154dc29bc4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>4f4673d61bac58503154dc29bc4bcb65</element>
+            <position>10</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>c34673d61bac58503154dc29bc4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_cierra_tarea</element>
+            <position>11</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>4b4673d61bac58503154dc29bc4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>cf4673d61bac58503154dc29bc4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>834673d61bac58503154dc29bc4bcb67</element>
+            <position>13</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>474673d61bac58503154dc29bc4bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_instruccion_cierre</element>
+            <position>14</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:26</sys_created_on>
+            <sys_id>cb4673d61bac58503154dc29bc4bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Definiciones" display_value="Definiciones" name="x_rrc_sm_etapa_servicio" sys_domain="global" view="Default view">4f4637961bac58503154dc29bc4bcbba</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Definiciones</caption>
+            <header>false</header>
+            <name>x_rrc_sm_etapa_servicio</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 21:23:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f4637961bac58503154dc29bc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_rrc_sm_etapa_servicio</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_ui_section_4f4637961bac58503154dc29bc4bcbba</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 21:23:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

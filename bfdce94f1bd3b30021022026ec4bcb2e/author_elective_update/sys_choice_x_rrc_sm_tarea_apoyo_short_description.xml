@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="short_description" table="x_rrc_sm_tarea_apoyo" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_id>062933621b89085021022026ec4bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>short_description</sys_name>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_choice_x_rrc_sm_tarea_apoyo_short_description</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Adjuntar respaldo de transferencia a unidad (Recepción conforme)</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>0</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a2933621b89085021022026ec4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Adjuntar respaldo de transferencia a unidad (Recepción conforme)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aportar copia notificación de Aduana</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>1</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e2933621b89085021022026ec4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Aportar copia notificación de Aduana</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cambiar Destinatario</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>2</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a2933621b89085021022026ec4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Cambiar Destinatario</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cliente desconoce entrega, favor verificar</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>3</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8229b3e61b89085021022026ec4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Cliente desconoce entrega, favor verificar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cliente recibe envío con avería o daño, favor verificar registros en unidad</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>4</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0229b3e61b89085021022026ec4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Cliente recibe envío con avería o daño, favor verificar registros en unidad</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cliente recibe envío con falta de contenido o merma, favor verificar registros en unidad</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>5</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e29b3e61b89085021022026ec4bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Cliente recibe envío con falta de contenido o merma, favor verificar registros en unidad</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Confirmar si envío se encuentra en sucursal</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>6</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e29b3e61b89085021022026ec4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Confirmar si envío se encuentra en sucursal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Confirmar tipo de producto y franqueo asociado</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>7</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a29b3e61b89085021022026ec4bcbed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Confirmar tipo de producto y franqueo asociado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Despachar a Destino</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>8</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a29b3e61b89085021022026ec4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Despachar a Destino</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Devolver envío a remitente</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>9</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8629b3e61b89085021022026ec4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Devolver envío a remitente</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enviar documentación que confirma conclusión extravío o perdida</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>10</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca29b3e61b89085021022026ec4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Enviar documentación que confirma conclusión extravío o perdida</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Favor confirmar si fue verificado el contenido al momento de la admisión</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>11</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a29f3e61b89085021022026ec4bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Favor confirmar si fue verificado el contenido al momento de la admisión</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Informar proceso de fiscalización en que se encuentra envío</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>12</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c629f3e61b89085021022026ec4bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Informar proceso de fiscalización en que se encuentra envío</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>informe sobre cobro excesivo</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>14</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c229f3e61b89085021022026ec4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>informe sobre cobro excesivo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Localizar envío con las siguientes características:</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>15</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4229f3e61b89085021022026ec4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Localizar envío con las siguientes características:</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mantener envío disponible, no retornar hasta:</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>16</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce29f3e61b89085021022026ec4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Mantener envío disponible, no retornar hasta:</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No entregar a reparto por Movil</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>17</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e29f3e61b89085021022026ec4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>No entregar a reparto por Movil</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Realizar nuevo Intento de Entrega</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>18</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca29f3e61b89085021022026ec4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Realizar nuevo Intento de Entrega</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reexpedir envío al siguiente destino:</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>19</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a29f3e61b89085021022026ec4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Reexpedir envío al siguiente destino:</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Se solicita despachar a Rezago</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>20</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c629f3e61b89085021022026ec4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Se solicita despachar a Rezago</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Se solicita hard copy o proporcionar datos de entrega</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>21</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4629f3e61b89085021022026ec4bcb14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Se solicita hard copy o proporcionar datos de entrega</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Se solicita rescatar</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>22</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c229f3e61b89085021022026ec4bcb16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Se solicita rescatar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solicita gestión problema TConecta</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>23</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4229f3e61b89085021022026ec4bcb18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Solicita gestión problema TConecta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solicita información problema TConecta</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>24</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce29f3e61b89085021022026ec4bcb19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Solicita información problema TConecta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Verificar que envío se encuentre en carga rezagada</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <sequence>25</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-14 16:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e29f3e61b89085021022026ec4bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:34:38</sys_updated_on>
+            <value>Verificar que envío se encuentre en carga rezagada</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

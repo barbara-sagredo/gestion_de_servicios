@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_rrc_sm_tarea_apoyo</collection>
+        <condition>(current.state.changesTo(2)||current.state.changesTo(210)||current.state.changesTo(-5)||current.state.changesTo(3)||current.state.changesTo(4)||current.state.changesTo(7))</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX cambio estado directo TS</name>
+        <order>70</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[// Flujo de estado tarea de servicio
+// 1 = Abierto , 200 = Asignado , 2 = En curso , -5 = Pendiente , 210 = Espera Solicitante
+// 3 = Cerrado Completado , 4 = Cerrado incompleto , 7 = Cancelado 
+
+(function executeRule(current, previous /*null when async*/) {
+
+if (current.isNewRecord()) {return;}
+	
+	var isProcess = current.u_slx_etapa_proceso != '';
+	var isOwner = current.u_slx_dueno_tarea == gs.getUserID() && isProcess;
+	var isOpener = current.opened_by == gs.getUserID() && !isProcess;
+	var isAssig = current.assigned_to = gs.getUserID();
+	var isAdmin = gs.hasRole("admin, x_rrc_sm.ts_admin, slx.csm_admin");
+	var isMemb = false;
+	var gr = new GlideRecord ('sys_user_grmember');
+	gr.addQuery('user',gs.getUserID());
+	gr.addQuery('group',current.assignment_group);
+	gr.query();
+	if (gr.hasNext()) {isMemb = true;}
+	
+	if (isMemb || isAdmin || isOpener || isOwner || isAssig)	// está autorizado
+		{
+			if (!isOpener && !isAssig && (current.assigned_to == '' || isMemb)) // define si asigna al actual
+				{current.assigned_to = gs.getUserID();}  // asigna al actual usuario
+			if (current.work_start=='' && !current.state.changesTo(7)) // no tiene fecha de inicio y no cancela
+				{current.work_start = new GlideDateTime();} // completa fecha de inicio
+			if (current.state == 2 && current.active==false)  // reapertura
+				{
+					current.closed_at = '';
+					current.closed_by = '';
+					current.active    = true;
+				}
+		}		
+	else
+		{
+			gs.addErrorMessage(gs.getMessage("No puede cambiar estado, debe ser miembro del grupo actual, el asignado, el solicitante (si no existe un proceso) o el dueño del proceso"));
+			current.state = previous.state;
+			current.setAbortAction(true);
+			return;
+		}
+		
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-11-03 05:36:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f543b0cf1bbc4c101c6b11f8bc4bcbf6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>SLX cambio estado directo TS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_script_f543b0cf1bbc4c101c6b11f8bc4bcbf6</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2020-05-05 22:28:55</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f543b0cf1bbc4c101c6b11f8bc4bcbf6"/>
+</record_update>

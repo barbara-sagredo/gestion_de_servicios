@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Key Attributes" section_id="1f54cbc51b6004501c6b11f8bc4bcb5f" sys_domain="global" table="u_cmdb_ci_moviles" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-16 00:21:42</sys_created_on>
+            <sys_id>5f54cbc51b6004501c6b11f8bc4bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_moviles" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">1f54cbc51b6004501c6b11f8bc4bcb5f</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-16 00:21:42</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-16 00:21:42</sys_created_on>
+            <sys_id>5b54cbc51b6004501c6b11f8bc4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_moviles" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">1f54cbc51b6004501c6b11f8bc4bcb5f</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-16 00:21:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>2</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-16 00:21:42</sys_created_on>
+            <sys_id>df54cbc51b6004501c6b11f8bc4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_moviles" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">1f54cbc51b6004501c6b11f8bc4bcb5f</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-16 00:21:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_status</element>
+            <position>3</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-16 00:21:42</sys_created_on>
+            <sys_id>5754cbc51b6004501c6b11f8bc4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_moviles" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">1f54cbc51b6004501c6b11f8bc4bcb5f</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-16 00:21:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-16 00:21:42</sys_created_on>
+            <sys_id>db54cbc51b6004501c6b11f8bc4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_moviles" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">1f54cbc51b6004501c6b11f8bc4bcb5f</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-16 00:21:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_discovered</element>
+            <position>5</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-16 00:21:42</sys_created_on>
+            <sys_id>5354cbc51b6004501c6b11f8bc4bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_moviles" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">1f54cbc51b6004501c6b11f8bc4bcb5f</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-16 00:21:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>support_group</element>
+            <position>6</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-16 00:21:42</sys_created_on>
+            <sys_id>d754cbc51b6004501c6b11f8bc4bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_moviles" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">1f54cbc51b6004501c6b11f8bc4bcb5f</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-16 00:21:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>7</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-16 00:21:42</sys_created_on>
+            <sys_id>5f54cbc51b6004501c6b11f8bc4bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_moviles" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">1f54cbc51b6004501c6b11f8bc4bcb5f</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-16 00:21:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>8</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-16 00:21:42</sys_created_on>
+            <sys_id>d354cbc51b6004501c6b11f8bc4bcb64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_moviles" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">1f54cbc51b6004501c6b11f8bc4bcb5f</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-16 00:21:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-16 00:21:42</sys_created_on>
+            <sys_id>5b54cbc51b6004501c6b11f8bc4bcb64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="u_cmdb_ci_moviles" sys_domain="global" view="2f19cfc21bf133000dcd8444cc4bcb63">1f54cbc51b6004501c6b11f8bc4bcb5f</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-16 00:21:42</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Key Attributes</caption>
+            <header>false</header>
+            <name>u_cmdb_ci_moviles</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-16 00:21:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f54cbc51b6004501c6b11f8bc4bcb5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cmdb_ci_moviles</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_ui_section_1f54cbc51b6004501c6b11f8bc4bcb5f</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-16 00:21:42</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">2f19cfc21bf133000dcd8444cc4bcb63</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

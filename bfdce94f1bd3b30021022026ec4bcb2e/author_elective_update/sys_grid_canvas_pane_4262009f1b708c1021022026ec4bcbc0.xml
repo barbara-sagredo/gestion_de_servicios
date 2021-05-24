@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA New Tab">7ff5df8b1bb48c101c6b11f8bc4bcbd1</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 03-11-2019 17:16:19">0262009f1b708c1021022026ec4bcbbf</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-11-03 20:16:19</sys_created_on>
+        <sys_id>4262009f1b708c1021022026ec4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7ff5df8b1bb48c101c6b11f8bc4bcbd1</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_4262009f1b708c1021022026ec4bcbc0</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-11-03 20:16:19</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</application>
+        <file_path/>
+        <instance_id>19938fcedbf57f008aea21c4059619fe</instance_id>
+        <instance_name>correoscl</instance_name>
+        <name>sys_grid_canvas_pane_4262009f1b708c1021022026ec4bcbc0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA New Tab">7ff5df8b1bb48c101c6b11f8bc4bcbd1</grid_canvas><height>10</height><portal_widget display_value="Created 03-11-2019 17:16:19">0262009f1b708c1021022026ec4bcbbf</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>slx.jp</sys_created_by><sys_created_on>2019-11-03 20:16:19</sys_created_on><sys_id>4262009f1b708c1021022026ec4bcbc0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>7ff5df8b1bb48c101c6b11f8bc4bcbd1</sys_name><sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package><sys_policy/><sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope><sys_update_name>sys_grid_canvas_pane_4262009f1b708c1021022026ec4bcbc0</sys_update_name><sys_updated_by>slx.jp</sys_updated_by><sys_updated_on>2019-11-03 20:16:19</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-1273956754</payload_hash>
+        <record_name>7ff5df8b1bb48c101c6b11f8bc4bcbd1</record_name>
+        <reverted_from/>
+        <source>ccece58f1bd3b30021022026ec4bcb92</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-11-03 20:16:19</sys_created_on>
+        <sys_id>c6620c131bb08c1021022026ec4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e32e9477b0000001</sys_recorded_at>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-11-03 20:16:19</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>8e62009f7a708c107a8601d17e9332c0</update_guid>
+        <update_guid_history>8e62009f7a708c107a8601d17e9332c0:-1273956754</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-11-03 20:16:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>0a0b98e804874af0b19da8bd6f64dcc4</sys_id>
+        <sys_metadata>4262009f1b708c1021022026ec4bcbc0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7ff5df8b1bb48c101c6b11f8bc4bcbd1</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_scope_delete display_value="">246b4cd8d95547798e90f0b45d69cb69</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_4262009f1b708c1021022026ec4bcbc0</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_4262009f1b708c1021022026ec4bcbc0">c6620c131bb08c1021022026ec4bcba0</sys_update_version>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-11-03 20:16:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

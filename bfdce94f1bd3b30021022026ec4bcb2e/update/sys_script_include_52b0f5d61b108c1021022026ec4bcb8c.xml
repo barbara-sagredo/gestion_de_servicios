@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_rrc_sm.SLXGruposTS</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>javascript:new SLXGruposTS().getTsGroup(current);</description>
+        <name>SLXGruposTS</name>
+        <script><![CDATA[var SLXGruposTS = Class.create();
+SLXGruposTS.prototype = {
+    initialize: function() {
+},
+	getTsGroup : function(current) {
+		
+		var filter = 'typeLIKE91800b611bdcc81021022026ec4bcb42'; // tipo TS
+		var thisUs = current.u_slx_unidad_de_servicio; //'e2d2dc261b580c101c6b11f8bc4bcb93';
+		var usGrupo = ''; // current.u_slx_unidad_de_servicio.u_slx_grupo_asignacion;
+		var myUs = '';
+		
+		var user = new GlideRecord('sys_user');
+		user.get(gs.getUserID());
+		myUs = user.u_slx_unidades_de_servicio;
+		
+		if (!thisUs)    // si no tenemos Unidad de Servicio
+			{ 
+				if (myUs =='')  // si no tengo Unidad de Servicio
+					{
+						filter = filter + '^u_slx_unidad_servicioISEMPTY';   // todos los grupos tipo TS y que no tengan US
+					}
+				else
+					{
+						filter = filter + '^u_slx_unidad_servicioISEMPTY'+
+								'^ORu_slx_unidad_servicioIN' + myUs ;     // todos los grupos tipo TS y que no tengan US o de mis US
+					}
+			}
+		else                                                              // si hay US en TS   
+			{
+				var us = new GlideRecord ('cmn_location');                // trae Grupo omisión asignación
+				us.get(thisUs);
+				usGrupo = us.u_slx_grupo_asignacion;
+				
+				var thisMyUs = false;
+				var arr = []; arr = myUs.split(','); 
+				for (var i = 0; i < arr.length; i++)
+					{if (thisUs == arr[i]) thisMyUs=true;}
+				
+				if (thisMyUs)                                             // si es una de mis US la US
+					{
+						filter = filter + '^u_slx_unidad_servicio=' + thisUs + // los grupos de la US o el por omisión
+								'^ORsys_id=' + usGrupo;
+					}
+				else                                     //si no lo es
+					{
+						filter = 'sys_id=' + usGrupo;   // solo el por omisión
+					}
+			}
+		return filter;   
+	},
+    type: 'SLXGruposTS'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-10-07 05:42:18</sys_created_on>
+        <sys_id>52b0f5d61b108c1021022026ec4bcb8c</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>SLXGruposTS</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_script_include_52b0f5d61b108c1021022026ec4bcb8c</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-11-03 03:40:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_grupos" label="Grupos con acceso" language="en" table="x_rrc_sm_proceso_servicio">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_grupos</element>
+            <help/>
+            <hint/>
+            <label>Grupos con acceso</label>
+            <language>en</language>
+            <name>x_rrc_sm_proceso_servicio</name>
+            <plural>Grupos con accesos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 20:50:09</sys_created_on>
+            <sys_id>73ae6f521ba858503154dc29bc4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Grupos con acceso</sys_name>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_documentation_x_rrc_sm_proceso_servicio_u_slx_grupos_en</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 20:50:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

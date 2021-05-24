@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="cmdb_ci" label="Móviles" max_length="40" name="x_rrc_sm_u_cmdb_ci_moviles" sizeclass="177" type="collection"/>
+</database>

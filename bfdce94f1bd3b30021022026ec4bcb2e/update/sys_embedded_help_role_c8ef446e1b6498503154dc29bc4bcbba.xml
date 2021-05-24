@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_rrc_sm.ts_process_user" name="x_rrc_sm.ts_process_user">15df446e1b6498503154dc29bc4bcbaa</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2020-05-05 23:15:10</sys_created_on>
+        <sys_id>c8ef446e1b6498503154dc29bc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>15df446e1b6498503154dc29bc4bcbaa</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c8ef446e1b6498503154dc29bc4bcbba</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2020-05-05 23:15:10</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>slx_historiaEnvio</name>
+        <scoped_name>x_rrc_sm_slx_historiaEnvio</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>slx.cj</sys_created_by>
+        <sys_created_on>2019-09-11 18:01:56</sys_created_on>
+        <sys_id>5ac66a4e1bbf37401c6b11f8bc4bcb10</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>slx_historiaEnvio</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_ui_macro_5ac66a4e1bbf37401c6b11f8bc4bcb10</sys_update_name>
+        <sys_updated_by>slx.cj</sys_updated_by>
+        <sys_updated_on>2019-09-11 18:02:05</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<!-- <j2:if test="$[current.getValue('order') == 1 ${AND} current.parent.state != 4]"> -->
+		<td align="center"><a onclick="popup('${ref}')">ver historial de envío</a></td>
+	<!-- </j2:if> -->
+
+	
+<script>
+        function popup(reference){    
+	     var dialog = new GlideDialogWindow('slx_historial');
+	     dialog.setTitle("Historial de envío");	
+         dialog.render();
+	}
+</script>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</application>
+        <file_path/>
+        <instance_id>19938fcedbf57f008aea21c4059619fe</instance_id>
+        <instance_name>correoscl</instance_name>
+        <name>sys_ui_macro_5ac66a4e1bbf37401c6b11f8bc4bcb10</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description/&gt;&lt;media_type/&gt;&lt;name&gt;slx_historiaEnvio&lt;/name&gt;&lt;scoped_name&gt;x_rrc_sm_slx_historiaEnvio&lt;/scoped_name&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;slx.cj&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-11 18:01:56&lt;/sys_created_on&gt;&lt;sys_id&gt;5ac66a4e1bbf37401c6b11f8bc4bcb10&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;slx_historiaEnvio&lt;/sys_name&gt;&lt;sys_package display_value="Gestión de Servicios" source="x_rrc_sm"&gt;bfdce94f1bd3b30021022026ec4bcb2e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestión de Servicios"&gt;bfdce94f1bd3b30021022026ec4bcb2e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_5ac66a4e1bbf37401c6b11f8bc4bcb10&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;slx.cj&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-11 18:02:05&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;!-- &lt;j2:if test="$[current.getValue('order') == 1 ${AND} current.parent.state != 4]"&gt; --&gt;
+		&lt;td align="center"&gt;&lt;a onclick="popup('${ref}')"&gt;ver historial de envío&lt;/a&gt;&lt;/td&gt;
+	&lt;!-- &lt;/j2:if&gt; --&gt;
+
+	
+&lt;script&gt;
+        function popup(reference){    
+	     var dialog = new GlideDialogWindow('slx_historial');
+	     dialog.setTitle("Historial de envío");	
+         dialog.render();
+	}
+&lt;/script&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2038249882</payload_hash>
+        <record_name>slx_historiaEnvio</record_name>
+        <reverted_from/>
+        <source>ccece58f1bd3b30021022026ec4bcb92</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>slx.cj</sys_created_by>
+        <sys_created_on>2019-09-11 18:02:05</sys_created_on>
+        <sys_id>be67620a1bbf37401c6b11f8bc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d217d55b60000001</sys_recorded_at>
+        <sys_updated_by>slx.cj</sys_updated_by>
+        <sys_updated_on>2019-09-11 18:02:05</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>b667620ababf37405d1adcd25fee57d5</update_guid>
+        <update_guid_history>b667620ababf37405d1adcd25fee57d5:-2038249882,f467628ed8bf374040eeac8361cb2a38:2065133639</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>slx.cj</sys_created_by>
+        <sys_created_on>2019-09-11 18:11:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>70fd058876a74af3977af50a257dc241</sys_id>
+        <sys_metadata>5ac66a4e1bbf37401c6b11f8bc4bcb10</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>slx_historiaEnvio</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_scope_delete display_value="">246b4cd8d95547798e90f0b45d69cb69</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_5ac66a4e1bbf37401c6b11f8bc4bcb10</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_5ac66a4e1bbf37401c6b11f8bc4bcb10">be67620a1bbf37401c6b11f8bc4bcbd5</sys_update_version>
+        <sys_updated_by>slx.cj</sys_updated_by>
+        <sys_updated_on>2019-09-11 18:11:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

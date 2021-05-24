@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="DELETE">
+        <dashboard display_value="Tareas de Servicio">0cf55fcb1bb48c101c6b11f8bc4bcbc0</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>4</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>rodrigo.perez@correointerno.cl</sys_created_by>
+        <sys_created_on>2019-11-19 17:20:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aaa331181b1904101c6b11f8bc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0cf55fcb1bb48c101c6b11f8bc4bcbc0</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_aaa331181b1904101c6b11f8bc4bcbd5</sys_update_name>
+        <sys_updated_by>rodrigo.perez@correointerno.cl</sys_updated_by>
+        <sys_updated_on>2019-11-19 17:20:47</sys_updated_on>
+        <tab display_value="Nueva ficha 4">22a379d41b1904101c6b11f8bc4bcb71</tab>
+    </pa_m2m_dashboard_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</application>
+        <file_path/>
+        <instance_id>19938fcedbf57f008aea21c4059619fe</instance_id>
+        <instance_name>correoscl</instance_name>
+        <name>pa_m2m_dashboard_tabs_aaa331181b1904101c6b11f8bc4bcbd5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs"><pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE"><dashboard display_value="Tareas de Servicio">0cf55fcb1bb48c101c6b11f8bc4bcbc0</dashboard><home>false</home><homepage/><order>4</order><sys_class_name>pa_m2m_dashboard_tabs</sys_class_name><sys_created_by>rodrigo.perez@correointerno.cl</sys_created_by><sys_created_on>2019-11-19 17:20:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aaa331181b1904101c6b11f8bc4bcbd5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>0cf55fcb1bb48c101c6b11f8bc4bcbc0</sys_name><sys_overrides/><sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package><sys_policy/><sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope><sys_update_name>pa_m2m_dashboard_tabs_aaa331181b1904101c6b11f8bc4bcbd5</sys_update_name><sys_updated_by>rodrigo.perez@correointerno.cl</sys_updated_by><sys_updated_on>2019-11-19 17:20:47</sys_updated_on><tab display_value="Nueva ficha 4">22a379d41b1904101c6b11f8bc4bcb71</tab></pa_m2m_dashboard_tabs></record_update>]]></payload>
+        <payload_hash>-1900539616</payload_hash>
+        <record_name>0cf55fcb1bb48c101c6b11f8bc4bcbc0</record_name>
+        <reverted_from/>
+        <source>09490b461bf133000dcd8444cc4bcb97</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rodrigo.perez@correointerno.cl</sys_created_by>
+        <sys_created_on>2019-11-19 17:20:47</sys_created_on>
+        <sys_id>e2a331181b1904101c6b11f8bc4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e84ae528f0000001</sys_recorded_at>
+        <sys_updated_by>rodrigo.perez@correointerno.cl</sys_updated_by>
+        <sys_updated_on>2019-11-19 17:20:47</sys_updated_on>
+        <type>Ficha del tablero de instrumentos</type>
+        <update_guid>eaa331187d190410e5db9000a56cacd6</update_guid>
+        <update_guid_history>eaa331187d190410e5db9000a56cacd6:-1900539616</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">b67627bc1b91c81021022026ec4bcb24</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>patricio.lucero@correointerno.cl</sys_created_by>
+        <sys_created_on>2019-11-21 14:59:22</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_dashboard_tabs">pa_m2m_dashboard_tabs</sys_db_object>
+        <sys_id>4c7372bae9c24fa9b21512b33b50e659</sys_id>
+        <sys_metadata>aaa331181b1904101c6b11f8bc4bcbd5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0cf55fcb1bb48c101c6b11f8bc4bcbc0</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_parent display_value="">0cf55fcb1bb48c101c6b11f8bc4bcbc0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_scope_delete display_value="">246b4cd8d95547798e90f0b45d69cb69</sys_scope_delete>
+        <sys_update_name>pa_m2m_dashboard_tabs_aaa331181b1904101c6b11f8bc4bcbd5</sys_update_name>
+        <sys_update_version display_value="pa_m2m_dashboard_tabs_aaa331181b1904101c6b11f8bc4bcbd5">e2a331181b1904101c6b11f8bc4bcbd7</sys_update_version>
+        <sys_updated_by>patricio.lucero@correointerno.cl</sys_updated_by>
+        <sys_updated_on>2019-11-21 14:59:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

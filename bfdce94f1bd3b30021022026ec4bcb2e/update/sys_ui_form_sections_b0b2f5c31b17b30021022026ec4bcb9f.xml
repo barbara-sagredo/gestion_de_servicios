@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b0b2f5c31b17b30021022026ec4bcb9f" sys_domain="global" table="x_rrc_sm_tarea_apoyo" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>slx.dv</sys_created_by>
+            <sys_created_on>2019-08-20 20:14:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8b239c31b17b30021022026ec4bcbe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_tarea_apoyo" name="x_rrc_sm_tarea_apoyo" sys_domain="global" view="Default view">b0b2f5c31b17b30021022026ec4bcb9f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_rrc_sm_tarea_apoyo" sys_domain="global" view="Default view">87127d831b17b30021022026ec4bcb86</sys_ui_section>
+            <sys_updated_by>slx.dv</sys_updated_by>
+            <sys_updated_on>2019-08-20 20:14:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-09-12 16:11:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3c7531e1bf7b74021022026ec4bcbb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_tarea_apoyo" name="x_rrc_sm_tarea_apoyo" sys_domain="global" view="Default view">b0b2f5c31b17b30021022026ec4bcb9f</sys_ui_form>
+            <sys_ui_section caption="Notas" display_value="Notas" name="x_rrc_sm_tarea_apoyo" sys_domain="global" view="Default view">c3c7531e1bf7b74021022026ec4bcbb6</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-09-12 16:11:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-09-12 16:11:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fc7531e1bf7b74021022026ec4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_tarea_apoyo" name="x_rrc_sm_tarea_apoyo" sys_domain="global" view="Default view">b0b2f5c31b17b30021022026ec4bcb9f</sys_ui_form>
+            <sys_ui_section caption="Información de Origen" display_value="Información de Origen" name="x_rrc_sm_tarea_apoyo" sys_domain="global" view="Default view">8fc7531e1bf7b74021022026ec4bcbb6</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-09-12 16:11:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-11-03 05:11:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>973370cf1bbc4c101c6b11f8bc4bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_rrc_sm_tarea_apoyo" name="x_rrc_sm_tarea_apoyo" sys_domain="global" view="Default view">b0b2f5c31b17b30021022026ec4bcb9f</sys_ui_form>
+            <sys_ui_section caption="Información Adicional" display_value="Información Adicional" name="x_rrc_sm_tarea_apoyo" sys_domain="global" view="Default view">833370cf1bbc4c101c6b11f8bc4bcb85</sys_ui_section>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-11-03 05:11:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>slx.dv</sys_created_by>
+            <sys_created_on>2019-08-20 20:14:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0b2f5c31b17b30021022026ec4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_rrc_sm_tarea_apoyo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b0b2f5c31b17b30021022026ec4bcb9f</sys_update_name>
+            <sys_updated_by>slx.dv</sys_updated_by>
+            <sys_updated_on>2019-08-20 20:14:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

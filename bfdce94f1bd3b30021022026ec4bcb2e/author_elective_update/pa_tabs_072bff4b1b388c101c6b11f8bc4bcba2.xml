@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="DELETE">
+        <canvas_page/>
+        <name>Enviadas</name>
+        <page/>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-11-03 19:44:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>072bff4b1b388c101c6b11f8bc4bcba2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Enviadas</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>pa_tabs_072bff4b1b388c101c6b11f8bc4bcba2</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-11-03 19:44:50</sys_updated_on>
+    </pa_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</application>
+        <file_path/>
+        <instance_id>19938fcedbf57f008aea21c4059619fe</instance_id>
+        <instance_name>correoscl</instance_name>
+        <name>pa_tabs_072bff4b1b388c101c6b11f8bc4bcba2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs"><pa_tabs action="INSERT_OR_UPDATE"><canvas_page/><name>Enviadas</name><page/><sys_class_name>pa_tabs</sys_class_name><sys_created_by>slx.jp</sys_created_by><sys_created_on>2019-11-03 19:44:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>072bff4b1b388c101c6b11f8bc4bcba2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Enviadas</sys_name><sys_overrides/><sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package><sys_policy/><sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope><sys_update_name>pa_tabs_072bff4b1b388c101c6b11f8bc4bcba2</sys_update_name><sys_updated_by>slx.jp</sys_updated_by><sys_updated_on>2019-11-03 19:44:50</sys_updated_on></pa_tabs></record_update>]]></payload>
+        <payload_hash>-580861187</payload_hash>
+        <record_name>Enviadas</record_name>
+        <reverted_from/>
+        <source>ccece58f1bd3b30021022026ec4bcb92</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>luis.altamirano@correointerno.cl</sys_created_by>
+        <sys_created_on>2020-07-12 18:15:14</sys_created_on>
+        <sys_id>61579d941bca585021022026ec4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173443cfe1e0000001</sys_recorded_at>
+        <sys_updated_by>luis.altamirano@correointerno.cl</sys_updated_by>
+        <sys_updated_on>2020-07-12 18:15:14</sys_updated_on>
+        <type>Ficha</type>
+        <update_guid>013bff4b60388c10cf69a0386c74570f</update_guid>
+        <update_guid_history>013bff4b60388c10cf69a0386c74570f:-912663331,013bff4b60388c10cf69a0386c74570f:-912663331,013bff4b60388c10cf69a0386c74570f:-912663331,832bff4b77388c10d2577589d35aeea3:1002005995</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6157dd941bca585021022026ec4bcb04</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>luis.altamirano@correointerno.cl</sys_created_by>
+        <sys_created_on>2020-07-12 18:15:14</sys_created_on>
+        <sys_db_object display_value="" name="pa_tabs">pa_tabs</sys_db_object>
+        <sys_id>6a34c33e1d694ca59319289b4a7333a1</sys_id>
+        <sys_metadata>072bff4b1b388c101c6b11f8bc4bcba2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enviadas</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_scope_delete display_value="">246b4cd8d95547798e90f0b45d69cb69</sys_scope_delete>
+        <sys_update_name>pa_tabs_072bff4b1b388c101c6b11f8bc4bcba2</sys_update_name>
+        <sys_update_version display_value="pa_tabs_072bff4b1b388c101c6b11f8bc4bcba2">61579d941bca585021022026ec4bcbf6</sys_update_version>
+        <sys_updated_by>luis.altamirano@correointerno.cl</sys_updated_by>
+        <sys_updated_on>2020-07-12 18:15:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

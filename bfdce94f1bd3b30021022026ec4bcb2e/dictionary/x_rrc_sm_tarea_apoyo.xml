@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasLabels=true" audit="true" extends="task" label="Tarea de Servicio" max_length="40" name="x_rrc_sm_tarea_apoyo" sizeclass="249351" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Avance Proceso" max_length="400" name="u_slx_avance_proceso" read_only="true" type="string"/>
+        <element label="Bloquea asignación" max_length="40" name="u_slx_bloquea_asignacion" read_only="true" type="boolean"/>
+        <element label="Caso" max_length="40" name="u_slx_caso" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Canal" max_length="40" name="u_slx_caso_canal" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cliente" max_length="40" name="u_slx_caso_cliente" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Convenio" max_length="40" name="u_slx_caso_convenio" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Creación (Caso)" max_length="40" name="u_slx_caso_creacion" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Estado del Caso" max_length="40" name="u_slx_caso_estado" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sensibilidad" max_length="40" name="u_slx_caso_sensibilidad" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Producto o Servicio Afectado" max_length="40" name="u_slx_caso_servicio_afectado" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tipo de Convenio" max_length="40" name="u_slx_caso_tipo_convenio" read_only="true" type="string"/>
+        <element label="Etapa cierra tarea" max_length="40" name="u_slx_cierra_tarea" read_only="true" type="boolean"/>
+        <element label="Datos del envio" max_length="2000" name="u_slx_datos_envio" read_only="true" type="string"/>
+        <element label="Etapa define dueño" max_length="40" name="u_slx_define_dueno" read_only="true" type="boolean"/>
+        <element label="Dueño tarea" max_length="32" name="u_slx_dueno_tarea" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Envío" max_length="32" name="u_slx_envio" read_only="true" type="string"/>
+        <element attributes="readonly_clickthrough=true" label="Etapa proceso" max_length="32" name="u_slx_etapa_proceso" read_only="true" reference="x_rrc_sm_etapa_servicio" reference_qual="javascript:'u_slx_proceso=' + current.u_slx_proceso + '^u_slx_tipo=etapa';" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Pendiente revisión" max_length="40" name="u_slx_pendiente_revision" type="boolean"/>
+        <element attributes="readonly_clickthrough=true" label="Proceso" max_length="32" name="u_slx_proceso" reference="x_rrc_sm_proceso_servicio" reference_qual="javascript:new SLXValidaUserGroupTS().validaUserGroup(current);" type="reference" use_reference_qualifier="advanced"/>
+        <element dependent="u_slx_proceso" dependent_on_field="u_slx_proceso" label="Respuesta etapa" max_length="32" name="u_slx_respuesta_etapa" reference="x_rrc_sm_etapa_servicio" reference_qual="javascript:'sys_idIN' + current.u_slx_etapa_proceso.u_slx_respuestas + '^u_slx_tipo=respuesta';" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Respuesta Proceso" max_length="200" name="u_slx_respuesta_proceso" read_only="true" type="string"/>
+        <element attributes="tree_picker=true,readonly_clickthrough=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Unidad de Servicio" max_length="32" name="u_slx_unidad_de_servicio" reference="cmn_location" reference_qual="u_slx_tipoISNOTEMPTY^EQ" reference_qual_condition="u_slx_tipoISNOTEMPTY^EQ" type="reference"/>
+    </element>
+</database>

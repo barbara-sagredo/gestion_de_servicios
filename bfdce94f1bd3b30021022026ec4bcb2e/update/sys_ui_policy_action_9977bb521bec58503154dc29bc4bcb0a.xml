@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_slx_define_dueno</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2020-05-05 21:28:39</sys_created_on>
+        <sys_id>9977bb521bec58503154dc29bc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_define_dueno</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9977bb521bec58503154dc29bc4bcb0a</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2020-05-05 21:28:39</sys_updated_on>
+        <table>x_rrc_sm_etapa_servicio</table>
+        <ui_policy display_value="Es Etapa">4b57fb121bec58503154dc29bc4bcbc1</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

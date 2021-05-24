@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Tareas Abiertas">fa29bf4b1b708c1021022026ec4bcb31</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-11-03 19:35:57</sys_created_on>
+        <sys_id>3e29378b1b708c1021022026ec4bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fa29bf4b1b708c1021022026ec4bcb31</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_report_users_groups_3e29378b1b708c1021022026ec4bcb44</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-11-03 19:35:57</sys_updated_on>
+        <user_id display_value="slx jp">632b0df41bcab7000dcd8444cc4bcb6e</user_id>
+    </sys_report_users_groups>
+</record_update>

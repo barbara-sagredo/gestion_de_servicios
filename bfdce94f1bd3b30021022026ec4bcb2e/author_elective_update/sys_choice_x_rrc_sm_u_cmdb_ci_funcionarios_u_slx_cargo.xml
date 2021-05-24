@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_cargo" table="x_rrc_sm_u_cmdb_ci_funcionarios" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_cargo</element>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_id>f108453d1bec44501c6b11f8bc4bcbb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_cargo</sys_name>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_choice_x_rrc_sm_u_cmdb_ci_funcionarios_u_slx_cargo</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:13:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Encargado de Agencia</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>0</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3908453d1bec44501c6b11f8bc4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:13:55</sys_updated_on>
+            <value>Encargado de Agencia</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jefe Área</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>1</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:13:55</sys_updated_on>
+            <value>Jefe Área</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jefe de Carga Aérea</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>2</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:13:55</sys_updated_on>
+            <value>Jefe de Carga Aérea</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jefe de CDP</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>3</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:13:55</sys_updated_on>
+            <value>Jefe de CDP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jefe de Planta</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>4</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:13:55</sys_updated_on>
+            <value>Jefe de Planta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jefe de Sucursal</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>5</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:13:55</sys_updated_on>
+            <value>Jefe de Sucursal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jefe Distribución</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>6</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:13:55</sys_updated_on>
+            <value>Jefe Distribución</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jefe Planta</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>7</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:13:55</sys_updated_on>
+            <value>Jefe Planta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jefe Regional</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>8</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:17:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cee8497d1bec44501c6b11f8bc4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:17:46</sys_updated_on>
+            <value>Jefe Regional</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jefe Unidad</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>9</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbc7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:17:46</sys_updated_on>
+            <value>Jefe Unidad</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Operador</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>10</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:17:46</sys_updated_on>
+            <value>Operador</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Supervisor</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>11</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbcd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:17:46</sys_updated_on>
+            <value>Supervisor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Supervisor CTP</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>12</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbd0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:17:46</sys_updated_on>
+            <value>Supervisor CTP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Supervisor Planta</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>13</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbd3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:17:46</sys_updated_on>
+            <value>Supervisor Planta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Técnico</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>14</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbd6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:17:46</sys_updated_on>
+            <value>Técnico</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Técnico Facturación</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>15</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbd9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:17:46</sys_updated_on>
+            <value>Técnico Facturación</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_cargo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Técnico Operaciones</label>
+            <language>en</language>
+            <name>x_rrc_sm_u_cmdb_ci_funcionarios</name>
+            <sequence>16</sequence>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2019-10-17 23:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b908c93d1bec44501c6b11f8bc4bcbdc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2019-10-17 23:17:46</sys_updated_on>
+            <value>Técnico Operaciones</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

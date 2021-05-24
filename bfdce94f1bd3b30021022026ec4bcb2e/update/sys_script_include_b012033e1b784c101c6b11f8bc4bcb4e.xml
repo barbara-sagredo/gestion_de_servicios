@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_rrc_sm.SLX_es_unidad_servicio</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SLX_es_unidad_servicio</name>
+        <script><![CDATA[var SLX_es_unidad_servicio = Class.create();
+SLX_es_unidad_servicio.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	esus :function(){
+		var tipous = new GlideRecord('cmn_location_type');
+		tipous.addQuery('sys_id', this.getParameter('sysparm_tipous'));
+		tipous.addQuery('u_slx_unidad_servicio',true);
+		tipous.query();
+		if(tipous.next()){
+			return tipous.sys_id;
+		}
+	},
+    type: 'SLX_es_unidad_servicio'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.jp</sys_created_by>
+        <sys_created_on>2019-11-02 21:01:11</sys_created_on>
+        <sys_id>b012033e1b784c101c6b11f8bc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLX_es_unidad_servicio</sys_name>
+        <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+        <sys_update_name>sys_script_include_b012033e1b784c101c6b11f8bc4bcb4e</sys_update_name>
+        <sys_updated_by>slx.jp</sys_updated_by>
+        <sys_updated_on>2019-11-02 21:01:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_dueno_tarea" label="Dueño tarea" language="en" table="x_rrc_sm_tarea_apoyo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_dueno_tarea</element>
+            <help/>
+            <hint/>
+            <label>Dueño tarea</label>
+            <language>en</language>
+            <name>x_rrc_sm_tarea_apoyo</name>
+            <plural>Dueño tareas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.jp</sys_created_by>
+            <sys_created_on>2020-05-05 22:07:08</sys_created_on>
+            <sys_id>2f40082a1ba098503154dc29bc4bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Dueño tarea</sys_name>
+            <sys_package display_value="Gestión de Servicios" source="x_rrc_sm">bfdce94f1bd3b30021022026ec4bcb2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gestión de Servicios">bfdce94f1bd3b30021022026ec4bcb2e</sys_scope>
+            <sys_update_name>sys_documentation_x_rrc_sm_tarea_apoyo_u_slx_dueno_tarea_en</sys_update_name>
+            <sys_updated_by>slx.jp</sys_updated_by>
+            <sys_updated_on>2020-05-05 22:07:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Proceso Servicio" max_length="40" name="x_rrc_sm_proceso_servicio" sizeclass="11" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Activo" max_length="40" name="u_slx_active" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Bloquea asignación" max_length="40" name="u_slx_bloquea_asignacion" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Dueño Procedimiento" max_length="32" name="u_slx_dueno" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Grupos con acceso" max_length="4000" name="u_slx_grupos" reference="sys_user_group" reference_qual="typeLIKE91800b611bdcc81021022026ec4bcb42^ORtypeLIKEedd9405d1b4b401037b5da4cbc4bcb17^EQ" reference_qual_condition="typeLIKE91800b611bdcc81021022026ec4bcb42^ORtypeLIKEedd9405d1b4b401037b5da4cbc4bcb17^EQ" type="glide_list"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Grupo Asignación Inicial" max_length="32" name="u_slx_grupo_inicial" reference="sys_user_group" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Nombre" mandatory="true" max_length="40" name="u_slx_nombre" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Observaciones" max_length="4000" name="u_slx_observaciones" type="journal"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Unidad de Servicio" max_length="32" name="u_slx_unidad_de_servicio" reference="cmn_location" reference_qual="u_slx_tipo.u_slx_unidad_servicio=true^EQ" reference_qual_condition="u_slx_tipo.u_slx_unidad_servicio=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="u_slx_grupo_inicial"/>
+        </index>
+        <index name="index2">
+            <element name="u_slx_unidad_de_servicio"/>
+        </index>
+        <index name="index3">
+            <element name="u_slx_dueno"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Etapa Servicio" max_length="40" name="x_rrc_sm_etapa_servicio" sizeclass="443" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Cierra tarea" max_length="40" name="u_slx_cierra_tarea" read_only="true" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Define dueño" max_length="40" name="u_slx_define_dueno" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Etapa" max_length="40" name="u_slx_etapa" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Etapa siguiente" max_length="32" name="u_slx_etapa_siguiente" reference="x_rrc_sm_etapa_servicio" reference_qual="javascript:'u_slx_proceso=' + current.u_slx_proceso + '^u_slx_tipo=etapa';" type="reference" use_reference_qualifier="advanced"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Grupo Asignación" max_length="32" name="u_slx_grupo_asignacion" reference="sys_user_group" reference_qual="typeLIKE91800b611bdcc81021022026ec4bcb42^ORtypeLIKEedd9405d1b4b401037b5da4cbc4bcb17^EQ" reference_qual_condition="typeLIKE91800b611bdcc81021022026ec4bcb42^ORtypeLIKEedd9405d1b4b401037b5da4cbc4bcb17^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Instrucciones" max_length="400" name="u_slx_instrucciones" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Instrucción de Cierre" max_length="80" name="u_slx_instruccion_cierre" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Nombre" mandatory="true" max_length="40" name="u_slx_nombre" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Orden" mandatory="true" max_length="40" name="u_slx_orden" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Proceso" mandatory="true" max_length="32" name="u_slx_proceso" reference="x_rrc_sm_proceso_servicio" reference_cascade_rule="delete" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Respuesta" max_length="40" name="u_slx_respuesta" type="string"/>
+        <element attributes="no_truncate=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Respuestas" max_length="4000" name="u_slx_respuestas" reference="x_rrc_sm_etapa_servicio" reference_qual="javascript:'u_slx_proceso=' + current.u_slx_proceso + '^u_slx_tipo=respuesta';" type="glide_list" use_reference_qualifier="advanced"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Tipo" mandatory="true" max_length="40" name="u_slx_tipo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Etapa" sequence="100" value="etapa"/>
+                <element inactive_on_update="false" label="Respuesta" sequence="200" value="respuesta"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_slx_etapa_siguiente"/>
+        </index>
+        <index name="index2">
+            <element name="u_slx_proceso"/>
+        </index>
+        <index name="index3">
+            <element name="u_slx_grupo_asignacion"/>
+        </index>
+    </element>
+</database>
